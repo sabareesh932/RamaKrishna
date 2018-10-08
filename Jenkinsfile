@@ -13,11 +13,6 @@ pipeline {
             echo 'Hi this is for test.'
           }
         }
-        stage('') {
-          steps {
-            retry(count: 1)
-          }
-        }
       }
     }
     stage('crack') {
